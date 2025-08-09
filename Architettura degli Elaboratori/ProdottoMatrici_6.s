@@ -8,23 +8,23 @@ c:      .double 0, 0, 0, 0
 ;PARZIALE
 p:      .double 0
 
-.text  
+.text  ;Loop Unrolling Totale + Instruction Reordering e Register Renaming 
 start:  
-		    DADDI   r1, r0, a       ; punta al primo elemento della matrice A
+		DADDI   r1, r0, a       ; punta al primo elemento della matrice A
         DADDI   r2, r0, b       ; punta al primo elemento della matrice B
         DADDI   r3, r0, c       ; punta al primo elemento della matrice C
-        L.D 	f0, p(r0)       ; inizializzazione parziale
+		L.D 	f0, p(r0)       ; inizializzazione parziale
 
-		    ; Caricamento prima riga di A e B
-		    L.D 	f1, 0(r1)       ; leggi a[0][0]
-        L.D   f2, 0(r2)       ; leggi b[0][0]
-		    L.D 	f3, 8(r1)       ; leggi a[0][1]
-        L.D   f4, 8(r2)       ; leggi b[0][1]
-		    ; Caricamento seconda riga di A e B
-		    L.D 	f5, 16(r1)      ; leggi a[1][0]
-        L.D   f6, 16(r2)      ; leggi b[1][0]
-		    L.D 	f7, 24(r1)      ; leggi a[1][1]
-		    L.D   f8, 24(r2)      ; leggi b[1][1]
+		; Caricamento prima riga di A e B
+		L.D 	f1, 0(r1)       ; leggi a[0][0]
+        L.D     f2, 0(r2)       ; leggi b[0][0]
+		L.D 	f3, 8(r1)       ; leggi a[0][1]
+        L.D     f4, 8(r2)       ; leggi b[0][1]
+		; Caricamento seconda riga di A e B
+		L.D 	f5, 16(r1)      ; leggi a[1][0]
+        L.D     f6, 16(r2)      ; leggi b[1][0]
+		L.D 	f7, 24(r1)      ; leggi a[1][1]
+		L.D     f8, 24(r2)      ; leggi b[1][1]
 		
         ; Moltiplicazioni per la prima riga di C
         MUL.D   f9, f1, f2      ; a[0][0] * b[0][0]
