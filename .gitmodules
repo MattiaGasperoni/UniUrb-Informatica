@@ -1,3 +1,4 @@
 [submodule "Tecnologie WEB/FindSPOT"]
 	path = Tecnologie WEB/FindSPOT
 	url = https://github.com/MattiaGasperoni/FindSPOT.git
+	branch = main
