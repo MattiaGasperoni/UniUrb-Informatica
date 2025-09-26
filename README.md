@@ -1,6 +1,6 @@
-# 📘 Appunti Universitari – Informatica & Cybersecurity
+# 📘 Appunti Universitari – Informatica 
 
-Benvenuto nel mio repository personale! Qui troverai **tutti gli appunti, esercizi, materiale di studio, progetti e risorse** raccolte durante il mio percorso universitario in **Informatica** con specializzazione in **Cybersecurity**.
+Benvenuto. qui troverai **tutti gli appunti, esercizi, materiale di studio, progetti e risorse** raccolte durante il mio percorso universitario in **Informatica**.
 
 ---
 
