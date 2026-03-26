@@ -1,0 +1,6 @@
+[submodule "2 Anno [28.53]/Programmazione e Modellazione a Oggetti [27]/FiveRealms"]
+	path = 2 Anno [28.53]/Programmazione e Modellazione a Oggetti [27]/FiveRealms
+	url = https://github.com/MattiaGasperoni/FiveRealms.git
+[submodule "2 Anno [28.53]/Tecnologie Web per la Gestione del Territorio [28]/FindSPOT"]
+	path = 2 Anno [28.53]/Tecnologie Web per la Gestione del Territorio [28]/FindSPOT
+	url = https://github.com/MattiaGasperoni/FindSPOT.git
