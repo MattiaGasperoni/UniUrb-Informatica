@@ -1,8 +1,8 @@
-[submodule "2 Anno [28.53]/Programmazione e Modellazione a Oggetti [27]/FiveRealms"]
-	path = 2 Anno [28.53]/Programmazione e Modellazione a Oggetti [27]/FiveRealms
+[submodule "2 Anno/Programmazione e Modellazione a Oggetti/FiveRealms"]
+	path = 2 Anno/Programmazione e Modellazione a Oggetti/FiveRealms
 	url = https://github.com/MattiaGasperoni/FiveRealms.git
-[submodule "2 Anno [28.53]/Tecnologie Web per la Gestione del Territorio [28]/FindSPOT"]
-	path = 2 Anno [28.53]/Tecnologie Web per la Gestione del Territorio [28]/FindSPOT
+[submodule "2 Anno/Tecnologie Web per la Gestione del Territorio/FindSPOT"]
+	path = 2 Anno/Tecnologie Web per la Gestione del Territorio/FindSPOT
 	url = https://github.com/MattiaGasperoni/FindSPOT.git
 [submodule "3 Anno/Geomatica/qgis-parking-manager"]
 	path = 3 Anno/Geomatica/qgis-parking-manager
